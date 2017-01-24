@@ -29,6 +29,8 @@ using xe::ui::gl::Blitter;
 using xe::ui::gl::CircularBuffer;
 using xe::ui::gl::Rect2D;
 
+void UntileImage(const TextureInfo&, const uint8_t*, uint8_t*);
+
 class TextureCache {
  public:
   struct TextureEntry;
